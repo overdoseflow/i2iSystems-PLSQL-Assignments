@@ -1,0 +1,5 @@
+SELECT EMPLOYEES.employee_id EMPLOYEES.first_name,
+DEPARTMENTS.department_name
+FROM EMPLOYEES 
+INNER JOIN DEPARTMENTS 
+ON EMPLOYEES.department_id = DEPARTMENTS.department_id;
